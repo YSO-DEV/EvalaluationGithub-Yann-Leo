@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.394">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-10-18T10:00:05" time="0.311" tests="1">
-    <testcase classname=" initial task list is empty" name=" initial task list is empty" time="0.001">
+<testsuites name="jest tests" tests="6" failures="0" errors="0" time="0.309">
+  <testsuite name="Task functions" errors="0" failures="0" skipped="0" timestamp="2025-10-18T14:44:19" time="0.262" tests="6">
+    <testcase classname="Task functions addTask adds a task and calls writeFile" name="Task functions addTask adds a task and calls writeFile" time="0.002">
+    </testcase>
+    <testcase classname="Task functions editTask calls modifyTask with updates" name="Task functions editTask calls modifyTask with updates" time="0.001">
+    </testcase>
+    <testcase classname="Task functions toggleTask toggles the completed status" name="Task functions toggleTask toggles the completed status" time="0">
+    </testcase>
+    <testcase classname="Task functions toggleTask logs error if task not found" name="Task functions toggleTask logs error if task not found" time="0.001">
+    </testcase>
+    <testcase classname="Task functions countDone function countDone returns correct counts for mixed tasks" name="Task functions countDone function countDone returns correct counts for mixed tasks" time="0">
+    </testcase>
+    <testcase classname="Task functions countDone function countDone returns zeros for empty task list" name="Task functions countDone function countDone returns zeros for empty task list" time="0">
     </testcase>
   </testsuite>
 </testsuites>
